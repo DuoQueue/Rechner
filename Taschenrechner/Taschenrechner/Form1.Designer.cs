@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.zahl9 = new System.Windows.Forms.Button();
+            this.zahl8 = new System.Windows.Forms.Button();
+            this.zahl6 = new System.Windows.Forms.Button();
+            this.zahl3 = new System.Windows.Forms.Button();
+            this.zahl0 = new System.Windows.Forms.Button();
+            this.zahl5 = new System.Windows.Forms.Button();
+            this.Zahl2 = new System.Windows.Forms.Button();
+            this.zahl7 = new System.Windows.Forms.Button();
+            this.zahl4 = new System.Windows.Forms.Button();
+            this.zahl1 = new System.Windows.Forms.Button();
+            this.minusTaste = new System.Windows.Forms.Button();
+            this.plusTaste = new System.Windows.Forms.Button();
+            this.divTaste = new System.Windows.Forms.Button();
+            this.multiTaste = new System.Windows.Forms.Button();
+            this.ergebnisTaste = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
+            this.kommaTaste = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -57,152 +57,146 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(265, 56);
+            this.listBox1.Size = new System.Drawing.Size(249, 56);
             this.listBox1.TabIndex = 0;
             // 
-            // button1
+            // zahl9
             // 
-            this.button1.Location = new System.Drawing.Point(114, 122);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.zahl9.Location = new System.Drawing.Point(114, 122);
+            this.zahl9.Name = "zahl9";
+            this.zahl9.Size = new System.Drawing.Size(45, 23);
+            this.zahl9.TabIndex = 1;
+            this.zahl9.Text = "9";
+            this.zahl9.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // zahl8
             // 
-            this.button2.Location = new System.Drawing.Point(63, 122);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(45, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.zahl8.Location = new System.Drawing.Point(63, 122);
+            this.zahl8.Name = "zahl8";
+            this.zahl8.Size = new System.Drawing.Size(45, 23);
+            this.zahl8.TabIndex = 2;
+            this.zahl8.Text = "8";
+            this.zahl8.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // zahl6
             // 
-            this.button3.Location = new System.Drawing.Point(114, 151);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(45, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.zahl6.Location = new System.Drawing.Point(114, 151);
+            this.zahl6.Name = "zahl6";
+            this.zahl6.Size = new System.Drawing.Size(45, 23);
+            this.zahl6.TabIndex = 3;
+            this.zahl6.Text = "6";
+            this.zahl6.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // zahl3
             // 
-            this.button4.Location = new System.Drawing.Point(114, 180);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(45, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.zahl3.Location = new System.Drawing.Point(114, 180);
+            this.zahl3.Name = "zahl3";
+            this.zahl3.Size = new System.Drawing.Size(45, 23);
+            this.zahl3.TabIndex = 4;
+            this.zahl3.Text = "3";
+            this.zahl3.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // zahl0
             // 
-            this.button5.Location = new System.Drawing.Point(12, 209);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(96, 23);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.zahl0.Location = new System.Drawing.Point(12, 209);
+            this.zahl0.Name = "zahl0";
+            this.zahl0.Size = new System.Drawing.Size(96, 23);
+            this.zahl0.TabIndex = 5;
+            this.zahl0.Text = "0";
+            this.zahl0.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // zahl5
             // 
-            this.button6.Location = new System.Drawing.Point(63, 151);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(45, 23);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.zahl5.Location = new System.Drawing.Point(63, 151);
+            this.zahl5.Name = "zahl5";
+            this.zahl5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.zahl5.Size = new System.Drawing.Size(45, 23);
+            this.zahl5.TabIndex = 6;
+            this.zahl5.Text = "5";
+            this.zahl5.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // Zahl2
             // 
-            this.button7.Location = new System.Drawing.Point(63, 180);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(45, 23);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Zahl2.Location = new System.Drawing.Point(63, 180);
+            this.Zahl2.Name = "Zahl2";
+            this.Zahl2.Size = new System.Drawing.Size(45, 23);
+            this.Zahl2.TabIndex = 7;
+            this.Zahl2.Text = "2";
+            this.Zahl2.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // zahl7
             // 
-            this.button8.Location = new System.Drawing.Point(12, 122);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(45, 23);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.zahl7.Location = new System.Drawing.Point(12, 122);
+            this.zahl7.Name = "zahl7";
+            this.zahl7.Size = new System.Drawing.Size(45, 23);
+            this.zahl7.TabIndex = 8;
+            this.zahl7.Text = "7";
+            this.zahl7.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // zahl4
             // 
-            this.button9.Location = new System.Drawing.Point(12, 151);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(45, 23);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.zahl4.Location = new System.Drawing.Point(12, 151);
+            this.zahl4.Name = "zahl4";
+            this.zahl4.Size = new System.Drawing.Size(45, 23);
+            this.zahl4.TabIndex = 9;
+            this.zahl4.Text = "4";
+            this.zahl4.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // zahl1
             // 
-            this.button10.Location = new System.Drawing.Point(12, 180);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(45, 23);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.zahl1.Location = new System.Drawing.Point(12, 180);
+            this.zahl1.Name = "zahl1";
+            this.zahl1.Size = new System.Drawing.Size(45, 23);
+            this.zahl1.TabIndex = 10;
+            this.zahl1.Text = "1";
+            this.zahl1.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // minusTaste
             // 
-            this.button11.Location = new System.Drawing.Point(114, 209);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(45, 23);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.minusTaste.Location = new System.Drawing.Point(216, 151);
+            this.minusTaste.Name = "minusTaste";
+            this.minusTaste.Size = new System.Drawing.Size(45, 23);
+            this.minusTaste.TabIndex = 15;
+            this.minusTaste.Text = "-";
+            this.minusTaste.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // plusTaste
             // 
-            this.button12.Location = new System.Drawing.Point(232, 151);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(45, 23);
-            this.button12.TabIndex = 15;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.plusTaste.Location = new System.Drawing.Point(165, 151);
+            this.plusTaste.Name = "plusTaste";
+            this.plusTaste.Size = new System.Drawing.Size(45, 23);
+            this.plusTaste.TabIndex = 14;
+            this.plusTaste.Text = "+";
+            this.plusTaste.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // divTaste
             // 
-            this.button13.Location = new System.Drawing.Point(181, 151);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(45, 23);
-            this.button13.TabIndex = 14;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
+            this.divTaste.Location = new System.Drawing.Point(216, 122);
+            this.divTaste.Name = "divTaste";
+            this.divTaste.Size = new System.Drawing.Size(45, 23);
+            this.divTaste.TabIndex = 13;
+            this.divTaste.Text = "/";
+            this.divTaste.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // multiTaste
             // 
-            this.button14.Location = new System.Drawing.Point(232, 122);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(45, 23);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
+            this.multiTaste.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.multiTaste.Location = new System.Drawing.Point(165, 122);
+            this.multiTaste.Name = "multiTaste";
+            this.multiTaste.Size = new System.Drawing.Size(45, 23);
+            this.multiTaste.TabIndex = 12;
+            this.multiTaste.Text = "*";
+            this.multiTaste.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // ergebnisTaste
             // 
-            this.button15.Location = new System.Drawing.Point(181, 122);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(45, 23);
-            this.button15.TabIndex = 12;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(181, 180);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(96, 52);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
+            this.ergebnisTaste.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ergebnisTaste.Location = new System.Drawing.Point(165, 180);
+            this.ergebnisTaste.Name = "ergebnisTaste";
+            this.ergebnisTaste.Size = new System.Drawing.Size(96, 52);
+            this.ergebnisTaste.TabIndex = 16;
+            this.ergebnisTaste.Text = "=";
+            this.ergebnisTaste.UseVisualStyleBackColor = true;
             // 
             // button17
             // 
@@ -249,32 +243,42 @@
             this.button22.Text = "button22";
             this.button22.UseVisualStyleBackColor = true;
             // 
+            // kommaTaste
+            // 
+            this.kommaTaste.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kommaTaste.Location = new System.Drawing.Point(114, 209);
+            this.kommaTaste.Name = "kommaTaste";
+            this.kommaTaste.Size = new System.Drawing.Size(45, 23);
+            this.kommaTaste.TabIndex = 23;
+            this.kommaTaste.Text = ",";
+            this.kommaTaste.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 239);
+            this.ClientSize = new System.Drawing.Size(273, 239);
+            this.Controls.Add(this.kommaTaste);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button22);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ergebnisTaste);
+            this.Controls.Add(this.minusTaste);
+            this.Controls.Add(this.plusTaste);
+            this.Controls.Add(this.divTaste);
+            this.Controls.Add(this.multiTaste);
+            this.Controls.Add(this.zahl1);
+            this.Controls.Add(this.zahl4);
+            this.Controls.Add(this.zahl7);
+            this.Controls.Add(this.Zahl2);
+            this.Controls.Add(this.zahl5);
+            this.Controls.Add(this.zahl0);
+            this.Controls.Add(this.zahl3);
+            this.Controls.Add(this.zahl6);
+            this.Controls.Add(this.zahl8);
+            this.Controls.Add(this.zahl9);
             this.Controls.Add(this.listBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -285,27 +289,27 @@
         #endregion
 
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button zahl9;
+        private System.Windows.Forms.Button zahl8;
+        private System.Windows.Forms.Button zahl6;
+        private System.Windows.Forms.Button zahl3;
+        private System.Windows.Forms.Button zahl0;
+        private System.Windows.Forms.Button zahl5;
+        private System.Windows.Forms.Button Zahl2;
+        private System.Windows.Forms.Button zahl7;
+        private System.Windows.Forms.Button zahl4;
+        private System.Windows.Forms.Button zahl1;
+        private System.Windows.Forms.Button minusTaste;
+        private System.Windows.Forms.Button plusTaste;
+        private System.Windows.Forms.Button divTaste;
+        private System.Windows.Forms.Button multiTaste;
+        private System.Windows.Forms.Button ergebnisTaste;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button kommaTaste;
     }
 }
 
