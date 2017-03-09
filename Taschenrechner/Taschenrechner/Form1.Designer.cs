@@ -1,6 +1,6 @@
 ﻿namespace Taschenrechner
 {
-    partial class Form1
+    partial class Rechner
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -253,7 +253,7 @@
             this.displayLabel.Size = new System.Drawing.Size(249, 62);
             this.displayLabel.TabIndex = 24;
             // 
-            // Form1
+            // Rechner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -280,8 +280,8 @@
             this.Controls.Add(this.zahl6Button);
             this.Controls.Add(this.zahl8Button);
             this.Controls.Add(this.zahl9Button);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Rechner";
+            this.Text = "Rechner";
             this.ResumeLayout(false);
 
         }
