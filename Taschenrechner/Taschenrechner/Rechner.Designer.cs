@@ -44,12 +44,13 @@
             this.multiButton = new System.Windows.Forms.Button();
             this.ergebnisButton = new System.Windows.Forms.Button();
             this.komplettenClearButton = new System.Windows.Forms.Button();
-            this.hochzahlx2Button = new System.Windows.Forms.Button();
+            this.wurzelButton = new System.Windows.Forms.Button();
             this.löschButton = new System.Windows.Forms.Button();
             this.hochzahlnButton = new System.Windows.Forms.Button();
             this.piButton = new System.Windows.Forms.Button();
             this.kommaButton = new System.Windows.Forms.Button();
             this.ergebnisTextBox = new System.Windows.Forms.TextBox();
+            this.rechnungsLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // zahl9Button
@@ -203,6 +204,7 @@
             this.ergebnisButton.TabIndex = 16;
             this.ergebnisButton.Text = "=";
             this.ergebnisButton.UseVisualStyleBackColor = true;
+            this.ergebnisButton.Click += new System.EventHandler(this.ergebnisButton_Click);
             // 
             // komplettenClearButton
             // 
@@ -214,14 +216,15 @@
             this.komplettenClearButton.UseVisualStyleBackColor = true;
             this.komplettenClearButton.Click += new System.EventHandler(this.komplettenClearButton_Click);
             // 
-            // hochzahlx2Button
+            // wurzelButton
             // 
-            this.hochzahlx2Button.Location = new System.Drawing.Point(12, 49);
-            this.hochzahlx2Button.Name = "hochzahlx2Button";
-            this.hochzahlx2Button.Size = new System.Drawing.Size(45, 23);
-            this.hochzahlx2Button.TabIndex = 21;
-            this.hochzahlx2Button.Text = "x²";
-            this.hochzahlx2Button.UseVisualStyleBackColor = true;
+            this.wurzelButton.Location = new System.Drawing.Point(12, 49);
+            this.wurzelButton.Name = "wurzelButton";
+            this.wurzelButton.Size = new System.Drawing.Size(45, 23);
+            this.wurzelButton.TabIndex = 21;
+            this.wurzelButton.Text = "√";
+            this.wurzelButton.UseVisualStyleBackColor = true;
+            this.wurzelButton.Click += new System.EventHandler(this.button_Click);
             // 
             // löschButton
             // 
@@ -231,6 +234,7 @@
             this.löschButton.TabIndex = 20;
             this.löschButton.Text = "C";
             this.löschButton.UseVisualStyleBackColor = true;
+            this.löschButton.Click += new System.EventHandler(this.löschButton_Click);
             // 
             // hochzahlnButton
             // 
@@ -271,15 +275,27 @@
             this.ergebnisTextBox.Text = "0";
             this.ergebnisTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // rechnungsLabel
+            // 
+            this.rechnungsLabel.AutoSize = true;
+            this.rechnungsLabel.BackColor = System.Drawing.SystemColors.Window;
+            this.rechnungsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rechnungsLabel.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.rechnungsLabel.Location = new System.Drawing.Point(15, 17);
+            this.rechnungsLabel.Name = "rechnungsLabel";
+            this.rechnungsLabel.Size = new System.Drawing.Size(0, 20);
+            this.rechnungsLabel.TabIndex = 25;
+            // 
             // Rechner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(273, 206);
+            this.ClientSize = new System.Drawing.Size(273, 205);
+            this.Controls.Add(this.rechnungsLabel);
             this.Controls.Add(this.ergebnisTextBox);
             this.Controls.Add(this.kommaButton);
             this.Controls.Add(this.komplettenClearButton);
-            this.Controls.Add(this.hochzahlx2Button);
+            this.Controls.Add(this.wurzelButton);
             this.Controls.Add(this.löschButton);
             this.Controls.Add(this.hochzahlnButton);
             this.Controls.Add(this.piButton);
@@ -298,11 +314,13 @@
             this.Controls.Add(this.zahl6Button);
             this.Controls.Add(this.zahl8Button);
             this.Controls.Add(this.zahl9Button);
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(289, 244);
             this.MinimumSize = new System.Drawing.Size(289, 244);
             this.Name = "Rechner";
             this.Text = "Rechner";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Rechner_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -326,12 +344,13 @@
         private System.Windows.Forms.Button multiButton;
         private System.Windows.Forms.Button ergebnisButton;
         private System.Windows.Forms.Button komplettenClearButton;
-        private System.Windows.Forms.Button hochzahlx2Button;
+        private System.Windows.Forms.Button wurzelButton;
         private System.Windows.Forms.Button löschButton;
         private System.Windows.Forms.Button hochzahlnButton;
         private System.Windows.Forms.Button piButton;
         private System.Windows.Forms.Button kommaButton;
         private System.Windows.Forms.TextBox ergebnisTextBox;
+        private System.Windows.Forms.Label rechnungsLabel;
     }
 }
 
