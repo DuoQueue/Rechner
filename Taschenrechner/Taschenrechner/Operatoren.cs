@@ -40,13 +40,13 @@ namespace Taschenrechner
         {
             return n1 * n2;
         }
-        public static Double Wurzel(int n1)
-        {
-            return Math.Sqrt(n1);
-        }
-        public static Double Wurzel(Double n1)
-        {
-            return Math.Sqrt(n1);
-        }
+        //public static Double Wurzel(int n1)
+        //{
+        //    return Math.Sqrt(n1);
+        //}
+        //public static Double Wurzel(Double n1)
+        //{
+        //    return Math.Sqrt(n1);
+        //}
     }
 }

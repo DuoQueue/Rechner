@@ -222,7 +222,7 @@
             this.wurzelButton.Name = "wurzelButton";
             this.wurzelButton.Size = new System.Drawing.Size(45, 23);
             this.wurzelButton.TabIndex = 21;
-            this.wurzelButton.Text = "√";
+            this.wurzelButton.Text = "Sqrt";
             this.wurzelButton.UseVisualStyleBackColor = true;
             this.wurzelButton.Click += new System.EventHandler(this.button_Click);
             // 

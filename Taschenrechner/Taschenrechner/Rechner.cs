@@ -49,20 +49,20 @@ namespace Taschenrechner
             Button grundrechenartenButton = (Button)sender;
             if (wert != 0)
             {
-                if(grundrechenartenButton.Text== "√")
-                {
-                    ergebnisTextBox.Text=Operatoren.Wurzel(Double.Parse(ergebnisTextBox.Text)).ToString();
-                }
+                //if(grundrechenartenButton.Text== "Sqrt")
+                //{
+                //    ergebnisTextBox.Text=Operatoren.Wurzel(Double.Parse(ergebnisTextBox.Text)).ToString();
+                //}
                 ergebnisButton.PerformClick();
                 grundrechenartenGedrückt = true;
                 grundrechenarten = grundrechenartenButton.Text;
                 rechnungsLabel.Text = wert + " " + grundrechenarten;
             }
-            else if(grundrechenartenButton.Text== "√")
-            {
-                ergebnisTextBox.Text=Operatoren.Wurzel(Double.Parse(ergebnisTextBox.Text)).ToString();
-                wert = Math.Sqrt(Double.Parse(ergebnisTextBox.Text));
-            }
+            //else if(grundrechenartenButton.Text== "Sqrt")
+            //{
+            //    ergebnisTextBox.Text=Operatoren.Wurzel(Double.Parse(ergebnisTextBox.Text)).ToString();
+            //    wert = Math.Sqrt(Double.Parse(ergebnisTextBox.Text));
+            //}
             else
             {
                 grundrechenarten = grundrechenartenButton.Text;
@@ -70,7 +70,6 @@ namespace Taschenrechner
                 grundrechenartenGedrückt = true;
                 rechnungsLabel.Text = wert + " " + grundrechenarten;
             }
-            rechnungsLabel.Focus();
         }
 
         private void ergebnisButton_Click(object sender, EventArgs e)
@@ -97,9 +96,8 @@ namespace Taschenrechner
                 default:
                     break;
             }
-            wert = Int32.Parse(ergebnisTextBox.Text);
+            wert = Double.Parse(ergebnisTextBox.Text);
             grundrechenarten = "";
-            rechnungsLabel.Focus();
         }
 
         private void löschButton_Click(object sender, EventArgs e)
